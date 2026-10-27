@@ -1,8 +1,12 @@
 <p align="center">
-  <img src="screenshots/hero.png" alt="Enfants IMG Performer" width="100%">
+  <a href="README.md">🇩🇪 Deutsch</a> · 🇬🇧 English
 </p>
 
-<h1 align="center">Enfants IMG Performer</h1>
+<p align="center">
+  <img src="screenshots/hero.png" alt="IMG Performer" width="100%">
+</p>
+
+<h1 align="center">IMG Performer</h1>
 
 <p align="center">
   <strong>WebP/AVIF conversion and EU AI Act image labeling for WordPress – processed on your own server.</strong><br>
@@ -18,10 +22,6 @@
 </p>
 
 <p align="center">
-  <a href="README.md">🇩🇪 Deutsch</a> · 🇬🇧 English
-</p>
-
-<p align="center">
   <a href="https://wordpress.org/plugins/enfants-img-performer/"><strong>Download</strong></a> ·
   <a href="https://img-performer.enfants.de/">Website</a> ·
   <a href="https://img-performer.enfants.de/#pricing">Pricing</a> ·
@@ -33,7 +33,7 @@
 
 ## Why another image plugin?
 
-Many image optimizers upload your files to a third-party service and meter you by month. **Enfants IMG Performer converts locally** with PHP's GD library. Your images never leave your server for conversion or AI-image labeling.
+Many image optimizers upload your files to a third-party service and meter you by month. **IMG Performer converts locally** with PHP's GD library. Your images never leave your server for conversion or AI-image labeling.
 
 Since **2 August 2026**, Article 50 of the EU AI Act applies. WordPress strips embedded provenance metadata when it generates thumbnails, so labeling AI images needs its own handling. The plugin does that on upload.
 
@@ -87,7 +87,7 @@ Since **2 August 2026**, Article 50 of the EU AI Act applies. WordPress strips e
 
 ## Install
 
-1. In WordPress, go to **Plugins → Add New** and search for **Enfants IMG Performer**, or [download it from WordPress.org](https://wordpress.org/plugins/enfants-img-performer/).
+1. In WordPress, go to **Plugins → Add New** and search for **IMG Performer**, or [download it from WordPress.org](https://wordpress.org/plugins/enfants-img-performer/).
 2. Activate the plugin.
 3. Open **Settings → IMG Performer** and set the quality.
 

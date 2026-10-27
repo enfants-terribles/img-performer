@@ -1,8 +1,12 @@
 <p align="center">
-  <img src="screenshots/hero.png" alt="Enfants IMG Performer" width="100%">
+  🇩🇪 Deutsch · <a href="README.en.md">🇬🇧 English</a>
 </p>
 
-<h1 align="center">Enfants IMG Performer</h1>
+<p align="center">
+  <img src="screenshots/hero.png" alt="IMG Performer" width="100%">
+</p>
+
+<h1 align="center">IMG Performer</h1>
 
 <p align="center">
   <strong>WebP/AVIF-Konvertierung und KI-Bildkennzeichnung nach EU AI Act für WordPress – direkt auf Ihrem eigenen Server.</strong><br>
@@ -19,10 +23,6 @@
 </p>
 
 <p align="center">
-  🇩🇪 Deutsch · <a href="README.en.md">🇬🇧 English</a>
-</p>
-
-<p align="center">
   <a href="https://wordpress.org/plugins/enfants-img-performer/"><strong>Download</strong></a> ·
   <a href="https://img-performer.enfants.de/">Website</a> ·
   <a href="https://img-performer.enfants.de/#pricing">Preise</a> ·
@@ -34,7 +34,7 @@
 
 ## Warum noch ein Bild-Plugin?
 
-Viele Bildoptimierer laden Ihre Dateien zu einem Drittanbieter hoch und begrenzen Sie pro Monat. **Enfants IMG Performer konvertiert lokal** mit der PHP-Bibliothek GD. Für die Konvertierung und die Kennzeichnung KI-generierter Bilder verlassen Ihre Bilder Ihren Server nicht – das ist für Websites in Deutschland, Österreich und der Schweiz ein klarer Vorteil bei der DSGVO.
+Viele Bildoptimierer laden Ihre Dateien zu einem Drittanbieter hoch und begrenzen Sie pro Monat. **IMG Performer konvertiert lokal** mit der PHP-Bibliothek GD. Für die Konvertierung und die Kennzeichnung KI-generierter Bilder verlassen Ihre Bilder Ihren Server nicht – das ist für Websites in Deutschland, Österreich und der Schweiz ein klarer Vorteil bei der DSGVO.
 
 Seit dem **2. August 2026** gilt Artikel 50 der EU-KI-Verordnung (EU AI Act). WordPress entfernt beim Erzeugen der Vorschaubilder eingebettete Herkunftsangaben. Für die Kennzeichnung KI-generierter Bilder braucht es deshalb eine eigene Lösung. Das Plugin übernimmt das direkt beim Upload.
 
@@ -88,7 +88,7 @@ Seit dem **2. August 2026** gilt Artikel 50 der EU-KI-Verordnung (EU AI Act). Wo
 
 ## Installation
 
-1. Im WordPress-Backend unter **Plugins → Neu hinzufügen** nach **Enfants IMG Performer** suchen, oder [auf WordPress.org herunterladen](https://de.wordpress.org/plugins/enfants-img-performer/).
+1. Im WordPress-Backend unter **Plugins → Neu hinzufügen** nach **IMG Performer** suchen, oder [auf WordPress.org herunterladen](https://de.wordpress.org/plugins/enfants-img-performer/).
 2. Plugin aktivieren.
 3. Unter **Einstellungen → IMG Performer** die Qualität festlegen.
 
