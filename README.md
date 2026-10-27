@@ -1,5 +1,5 @@
 <p align="center">
-  🇩🇪 Deutsch · <a href="README.en.md">🇬🇧 English</a>
+  🇩🇪 Deutsch · <a href="README.en.md">🇬🇧 English</a> · <a href="README.fr.md">🇫🇷 Français</a> · <a href="README.es.md">🇪🇸 Español</a>
 </p>
 
 <p align="center">
@@ -110,6 +110,13 @@ Seit dem **2. August 2026** gilt Artikel 50 der EU-KI-Verordnung (EU AI Act). Wo
 Konvertierung und Kennzeichnung KI-generierter Bilder laufen vollständig auf Ihrem Server. Die kostenlose Version braucht keinen API-Schlüssel und sendet weder Bilddaten noch personenbezogene Daten an externe Dienste. Die einzige optionale externe Verbindung ist die CO₂-Statistik per Opt-in. Sie übermittelt nur die insgesamt gesparten Bytes und eine zufällige, anonyme Site-ID – keine Domain, keine IP-Adresse.
 
 Der KI-Alt-Text in PRO funktioniert anders: Das Bild geht an den KI-Anbieter, dessen API-Schlüssel Sie eintragen. Dafür brauchen Sie einen Auftragsverarbeitungsvertrag (AVV) mit diesem Anbieter. Wir empfehlen Mistral (EU-Unternehmen, EU-Server).
+
+## Hinweise für Österreich und die Schweiz
+
+- **Österreich:** Das Barrierefreiheitsgesetz (BaFG) setzt seit dem 28. Juni 2025 dieselbe EU-Richtlinie (European Accessibility Act) um wie das deutsche BFSG. Die Anforderungen an barrierefreie Alt-Texte sind inhaltlich nahezu identisch. Der KI-Alt-Text in PRO erzeugt WCAG-2.1-AA-Texte.
+- **Schweiz:** Die Schweiz ist kein EU-Mitglied, doch der EU AI Act gilt nach dem Marktortprinzip auch für Websites, die Nutzer:innen in der EU erreichen. Beim Datenschutz zählt das revidierte Schweizer Datenschutzgesetz (nDSG, seit 1. September 2023). Die lokale Verarbeitung auf dem eigenen Server bedeutet in beiden Rechtsordnungen: keine Übermittlung von Bilddaten an Dritte. Eine Teilrevision des Behindertengleichstellungsgesetzes (BehiG) zur digitalen Barrierefreiheit war zuletzt noch im Gesetzgebungsverfahren; prüfen Sie den aktuellen Stand.
+
+Dieser Abschnitt ist keine Rechtsberatung.
 
 ## Quellcode und Lizenz
 
