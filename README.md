@@ -25,7 +25,7 @@
 <p align="center">
   <a href="https://wordpress.org/plugins/enfants-img-performer/"><strong>Download</strong></a> ·
   <a href="https://img-performer.enfants.de/">Website</a> ·
-  <a href="https://img-performer.enfants.de/pricing/">Preise</a> ·
+  <a href="https://img-performer.enfants.de/#pricing">Preise</a> ·
   <a href="https://wordpress.org/plugins/enfants-img-performer/#developers">Changelog</a> ·
   <a href="https://wordpress.org/support/plugin/enfants-img-performer/">Support</a>
 </p>
@@ -34,7 +34,7 @@
 
 ## Warum noch ein Bild-Plugin?
 
-Die meisten Bildoptimierer laden Ihre Dateien zu einem Drittanbieter hoch und begrenzen Sie pro Monat. **Enfants IMG Performer konvertiert lokal** mit der PHP-Bibliothek GD (Imagick als Fallback). Für die Konvertierung und die Kennzeichnung KI-generierter Bilder verlassen Ihre Bilder Ihren Server nicht – das ist für Websites in Deutschland, Österreich und der Schweiz ein klarer Vorteil bei der DSGVO.
+Viele Bildoptimierer laden Ihre Dateien zu einem Drittanbieter hoch und begrenzen Sie pro Monat. **Enfants IMG Performer konvertiert lokal** mit der PHP-Bibliothek GD. Für die Konvertierung und die Kennzeichnung KI-generierter Bilder verlassen Ihre Bilder Ihren Server nicht – das ist für Websites in Deutschland, Österreich und der Schweiz ein klarer Vorteil bei der DSGVO.
 
 Seit dem **2. August 2026** gilt Artikel 50 der EU-KI-Verordnung (EU AI Act). WordPress entfernt beim Erzeugen der Vorschaubilder eingebettete Herkunftsangaben. Für die Kennzeichnung KI-generierter Bilder braucht es deshalb eine eigene Lösung. Das Plugin übernimmt das direkt beim Upload.
 
@@ -55,7 +55,7 @@ Seit dem **2. August 2026** gilt Artikel 50 der EU-KI-Verordnung (EU AI Act). Wo
 - Schreibt eine eigene, hosting-unabhängige Kennzeichnung in das Original und jede erzeugte Bildgröße – ohne Imagick
 - Zeigt im Frontend ein sichtbares **Badge „KI-generiert"** an, abschaltbar
 - Automatische Einstufung in der Mediathek mit einem Klick korrigieren
-- Spalten „KI-Kennzeichnung" und Alt-Text-Status sowie ein Filter „Prüfung nötig"
+- Statusspalten für KI-Kennzeichnung und Alt-Text sowie ein Filter für noch ungeprüfte Bilder
 - Erzeugt für KI-gekennzeichnete Beitragsbilder ein `og:image` (1200×630) mit Kennzeichnung
 
 ### PRO
@@ -73,7 +73,7 @@ Seit dem **2. August 2026** gilt Artikel 50 der EU-KI-Verordnung (EU AI Act). Wo
     <td width="50%"><img src="screenshots/screenshot-4.png" alt="Einstellungen KI-Kennzeichnung"><br><sub>Einstellungen zur KI-Kennzeichnung</sub></td>
   </tr>
   <tr>
-    <td width="50%"><img src="screenshots/screenshot-6.png" alt="Mediathek"><br><sub>Mediathek mit Filter „Prüfung nötig"</sub></td>
+    <td width="50%"><img src="screenshots/screenshot-6.png" alt="Mediathek"><br><sub>Mediathek mit Statusspalten und Filter für ungeprüfte Bilder</sub></td>
     <td width="50%"><img src="screenshots/screenshot-8.png" alt="Badge im Frontend"><br><sub>Sichtbares Badge im Frontend</sub></td>
   </tr>
   <tr>
@@ -107,7 +107,7 @@ Seit dem **2. August 2026** gilt Artikel 50 der EU-KI-Verordnung (EU AI Act). Wo
 
 ## Datenschutz (DSGVO)
 
-Konvertierung und Kennzeichnung KI-generierter Bilder laufen vollständig auf Ihrem Server. Die kostenlose Version braucht keinen API-Schlüssel und sendet weder Bilddaten noch personenbezogene Daten an externe Dienste. Die einzige optionale externe Verbindung ist die CO₂-Statistik per Opt-in. Sie übermittelt nur die insgesamt gesparten Bytes, sonst nichts.
+Konvertierung und Kennzeichnung KI-generierter Bilder laufen vollständig auf Ihrem Server. Die kostenlose Version braucht keinen API-Schlüssel und sendet weder Bilddaten noch personenbezogene Daten an externe Dienste. Die einzige optionale externe Verbindung ist die CO₂-Statistik per Opt-in. Sie übermittelt nur die insgesamt gesparten Bytes und eine zufällige, anonyme Site-ID – keine Domain, keine IP-Adresse.
 
 Der KI-Alt-Text in PRO funktioniert anders: Das Bild geht an den KI-Anbieter, dessen API-Schlüssel Sie eintragen. Dafür brauchen Sie einen Auftragsverarbeitungsvertrag (AVV) mit diesem Anbieter. Wir empfehlen Mistral (EU-Unternehmen, EU-Server).
 

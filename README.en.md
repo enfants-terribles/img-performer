@@ -24,7 +24,7 @@
 <p align="center">
   <a href="https://wordpress.org/plugins/enfants-img-performer/"><strong>Download</strong></a> ·
   <a href="https://img-performer.enfants.de/">Website</a> ·
-  <a href="https://img-performer.enfants.de/pricing/">Pricing</a> ·
+  <a href="https://img-performer.enfants.de/#pricing">Pricing</a> ·
   <a href="https://wordpress.org/plugins/enfants-img-performer/#developers">Changelog</a> ·
   <a href="https://wordpress.org/support/plugin/enfants-img-performer/">Support</a>
 </p>
@@ -33,7 +33,7 @@
 
 ## Why another image plugin?
 
-Most image optimizers upload your files to a third-party service and meter you by month. **Enfants IMG Performer converts locally** with PHP's GD library (Imagick as fallback). Your images never leave your server for conversion or AI-image labeling.
+Many image optimizers upload your files to a third-party service and meter you by month. **Enfants IMG Performer converts locally** with PHP's GD library. Your images never leave your server for conversion or AI-image labeling.
 
 Since **2 August 2026**, Article 50 of the EU AI Act applies. WordPress strips embedded provenance metadata when it generates thumbnails, so labeling AI images needs its own handling. The plugin does that on upload.
 
@@ -106,7 +106,7 @@ Since **2 August 2026**, Article 50 of the EU AI Act applies. WordPress strips e
 
 ## Privacy
 
-Conversion and AI-image labeling run entirely on your server. The free plugin needs no API key and sends no image data or personal data to external services. The only optional external connection is the opt-in CO₂ statistic, which sends total bytes saved and nothing else.
+Conversion and AI-image labeling run entirely on your server. The free plugin needs no API key and sends no image data or personal data to external services. The only optional external connection is the opt-in CO₂ statistic, which sends only the total bytes saved and a random, anonymous site ID – no domain, no IP address.
 
 The AI alt text feature in PRO works differently: the image goes to the AI provider whose API key you enter. A data processing agreement with that provider is required. We recommend Mistral (EU company, EU servers).
 
